@@ -6,40 +6,52 @@
     <title>Contactame</title>
 </head>
 <body>
-    <h1>Ingrese la informacion</h1>
-    <img src="img/datos.png" width="10%">
-    <form action="" method="get" enctype="multipart/form-data">
-        
-        <label for="documento">Documento</label>
-        <input type="number" name="documento" id="documento">
-        <br>
-        <br>
-        <label for="nombre">Nombres</label>
-        <input type="text" name="nombre" id="nombre"  >
-        <br>
-        <br>
-        <label for="apellido">Apellidos</label>
-        <input type="text" name="apellido" id="apellido">
-        <br>
-        <br>
-        <label for="telefono">Telefono</label>
-        <input type="number" name="telefono" id="telefono">
-        <br>
-        <br>
-        <div>
-            <label for="masculino">masculino</label>
-            <input type="radio" value="m" name="sexo" id="masculino">
-            <label for="femenino">femenino</label>
-            <input type="radio" name="sexo" id="femenino">
-        </div>
-        <div>
-            <textarea name="Mensaje" id="Mensaje" rows="6" placeholder="Ingrese el mensaje que me quieres enviar"></textarea>
-        </div>
-        <br>
-        <button type="submit">ENVIAR</button>
-      
-    
-    </form>
+    <header>
+        <h1><b>Ingrese los datos de el formulario</b></h1>
+    </header>
+    <main>
+        <img src="img/datos.png" width="10%">
+        <form action="" method="get" enctype="multipart/form-data">
+            <div>
+                <label for="documento">Documento</label>
+                <input type="number" name="documento" id="documento">
+                <br>
+            </div>
 
+            <div>
+                <br>
+                <label for="nombre">Nombres</label>
+                <input type="text" name="nombre" id="nombre"  >
+                <br>
+            </div>
+
+            <div>
+                <br>
+                <label for="apellido">Apellidos</label>
+                <input type="text" name="apellido" id="apellido">
+                <br>
+            </div>
+
+            <div>
+                <br>
+                <label for="telefono">Telefono</label>
+                <input type="number" name="telefono" id="telefono">
+                <br>
+            </div>
+
+            <div>
+
+                <label for="masculino">masculino</label>
+                <input type="radio" value="m" name="sexo" id="masculino">
+                <label for="femenino">femenino</label>
+                <input type="radio" name="sexo" id="femenino">
+            </div>
+            <div>
+                <textarea name="Mensaje" id="Mensaje" rows="6" placeholder="Enviame un mensaje "></textarea>
+            </div>
+            <br>
+            <button type="submit">ENVIAR</button>
+        </form>
+    </main>
 </body>
 </html>
